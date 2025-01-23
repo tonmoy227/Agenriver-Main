@@ -1077,3 +1077,103 @@
 		margin-bottom: 40px;
 	}
 }
+.agt-chari-count-wrap {
+	gap: 30px;
+	@media #{$lg,$md,$sm,$xs} {
+		flex-wrap: wrap;
+	}
+}
+.agt-chari-count {
+	.inner-item-wrap {
+		gap: 20px 40px;
+		max-width: 750px;
+		padding: 42px 40px;
+		border-radius: 16px;
+		border: 1px solid #201D1E33;
+		.chari-count {
+			h3 {
+				color: #261723;
+				font-size: 60px;
+				font-weight: 600;
+			}
+			b {
+				font-size: 26px;
+				font-weight: 500;
+				margin-left: 5px;
+				position: relative;
+				color: var(--agn-clr-pr-9);
+			}
+			p {
+				max-width: 92px;
+				line-height: 1.2;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+.agt-chari-count-text {
+	max-width: 481px;
+	p {
+		padding-bottom: 30px;
+	}
+}
+.agt-chari-ab-img-wrap {
+	gap: 40px;
+	.item-img-1 {
+		.inner-img {
+			height: 100%;
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				border-radius: 16px;
+			}
+		}
+	}
+}
+.agn-service-9-area.inner_page_ver {
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.agn-donation-9-area.inner_page_ver {
+	padding-top: 40px;
+}
+.agn-history-title {
+	margin: 0 auto;
+	max-width: 855px;
+}
+.agn-history-item {
+	.item-img {
+		margin-bottom: 95px;
+
+	}
+	.item-text {
+		position: relative;
+		&:before {
+			left: 0;
+			width: 100%;
+			top: -45px;
+			height: 1px;
+			content: '';
+			position: absolute;
+			background: linear-gradient(90deg, #209753 0%, #B9D32A 100%);
+		}
+		&:after {
+			left: 0;
+			top: -56px;
+			width: 24px;
+			content: '';
+			height: 24px;
+			position: absolute;
+			border-radius: 100%;
+			background: linear-gradient(90deg, #209753 0%, #B9D32A 100%);
+		}
+		h3 {
+			color: #201D1E;
+			font-size: 26px;
+			font-weight: 600;
+			font-family: var(--playfair);
+			padding-bottom: 10px;
+		}
+	}
+}

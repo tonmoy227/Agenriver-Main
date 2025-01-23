@@ -197,6 +197,30 @@
 			}
 		}
 	}
+	&.chari_vt {
+		.item-text .item-name-degi {
+			padding-top: 50px;
+			padding-bottom: 130px;
+			@media #{$lg,$md,$xs} {
+				padding-top: 30px;
+				padding-bottom: 40px;
+			}
+		}
+		.item-text .item-name-degi h2 {
+			font-size: 64px;
+			padding-bottom: 10px;
+			font-family: var(--playfair);
+			@media #{$lg,$md,$xs} {
+				font-size: 50px;
+			}
+			@media #{$xxs} {
+				font-size: 40px;
+			}
+		}
+		.item-text .item-name-degi span {
+			color: var(--agn-clr-pr-9);
+		}
+	}
 }
 .agt-tds-skill-sec {
 	background-color: #18333B;
