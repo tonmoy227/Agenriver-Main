@@ -2213,4 +2213,14 @@ function v() {
 		});
 	});
 }
+var blog_Slider = new Swiper(".blog-item-img-slide", {
+	loop: true,
+	slidesPerView: 1,
+	centeredSlides: true,
+	speed: 1000,
+	navigation: {
+		nextEl: ".log-blog-button-prev",
+		prevEl: ".log-blog-button-next",
+	},
+});
 })(jQuery);

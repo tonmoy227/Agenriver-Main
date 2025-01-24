@@ -818,6 +818,17 @@
 			}
 			.offcanvas-trigger {
 				margin-left: 40px;
+				&.open_mobile_menu {
+					display: none;
+					@media #{$md,$sm,$xs} {
+						display: flex;
+					}
+				}
+				&.agt-menu-button {
+					@media #{$md,$sm,$xs} {
+						display: none;
+					}
+				}
 				@media #{$xxl,$xl,$lg} {
 					margin-left: 20px;
 				}
